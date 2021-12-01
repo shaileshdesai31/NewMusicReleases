@@ -22,6 +22,6 @@ In order to use any of these scripts, the user must mainly download the spotipy 
 Depending on which file being run, there may be different other libraries used, but the main
 library is the spotipy library. Other used libraries consist of datetime, spotipy.oauth2, and os.
 
---- Credits ---
+--- CREDITS ---
 All files written by Shailesh Desai. The python spotipy library was used throughout all files.
 The spotipy library tutorials to structure some small generic tasks in some files.
