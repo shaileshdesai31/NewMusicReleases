@@ -1,12 +1,14 @@
 import datetime
 import spotipy
 import os
-#from spotipy.oauth2 import SpotifyClientCredentials -- this line is in case Spotify credentials are used
+from spotipy.oauth2 import SpotifyClientCredentials
 
 # Have a file with Spotify artist ID's listed; format:
 #Artist_Name: artist_id
 ARTISTS_FILE_NAME = "artists.txt"
 RELEASE_INTERVAL = 2  # All releases +- RELEASE_INTERVAL days from when executed will be reported
+CLIENT_ID = "xxx"
+CLIENT_SECRET = "xxx"  # Obtain client_id and client_secret from creating an app on a Spotify for Developers account
 
 
 # Opens the the file of artists and returns a list of all the id's
@@ -89,8 +91,11 @@ def add_release_date(spotify: spotipy.Spotify, song_ids: set) -> [("id, date")]:
 
 
 if __name__ == '__main__':
-    spotify = spotipy.Spotify(requests_timeout=100)  # can be changed depending on internet speed
-    # spotify credentials can be added into the parameters for the Spotify object
+    spotify = spotipy.Spotify(client_credentials_manager=SpotifyClientCredentials(
+        client_id=CLIENT_ID,
+        client_secret=CLIENT_SECRET,
+        requests_timeout=100))
+    # requests_timeout can be changed depending on internet speed
     artist_ids = get_artists()
     song_ids = set()
     for artist_id in artist_ids:
