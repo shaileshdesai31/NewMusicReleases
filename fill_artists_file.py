@@ -8,7 +8,7 @@ from spotipy.oauth2 import SpotifyClientCredentials
 # ...
 
 ARTISTS_FILE_NAME = "artists.txt"
-PLAYLIST_ID = '37i9dQZF1DX7Mq3mO5SSDc'
+PLAYLIST_ID = 'ADD ID'
 CLIENT_ID = "xxx"
 CLIENT_SECRET = "xxx"  # Obtain client_id and client_secret from creating an app on a Spotify for Developers account
 
