@@ -26,4 +26,4 @@ library is the spotipy library. Other used libraries consist of datetime, spotip
 --- CREDITS ---
 
 All files written by Shailesh Desai. The python spotipy library was used throughout all files.
-The spotipy library tutorials to structure some small generic tasks in some files.
+The spotipy library tutorials were used to structure some small generic tasks in some files.
