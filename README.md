@@ -1,6 +1,7 @@
 # NewMusicReleases
 
 --- USAGE NOTES ---
+
   - General use is to btain various information from the Spotify API about artists, songs, and albums.
   
   - The primary file is the new-music-checker.py script. The script generates a file
@@ -23,5 +24,6 @@ Depending on which file being run, there may be different other libraries used, 
 library is the spotipy library. Other used libraries consist of datetime, spotipy.oauth2, and os.
 
 --- CREDITS ---
+
 All files written by Shailesh Desai. The python spotipy library was used throughout all files.
 The spotipy library tutorials to structure some small generic tasks in some files.
