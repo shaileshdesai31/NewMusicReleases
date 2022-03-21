@@ -2,7 +2,7 @@
 
 --- USAGE NOTES ---
 
-  - General use is to btain various information from the Spotify API about artists, songs, and albums.
+  - General use is to obtain various information from the Spotify API about artists, songs, and albums.
   
   - The primary file is the new-music-checker.py script. The script generates a file
     with all the new releases for the artists in the "artists.txt" files. The "artists.txt"
@@ -19,11 +19,11 @@
     
 --- INSTALLATIONS ---
 
-In order to use any of these scripts, the user must mainly download the spotipy library.
-Depending on which file being run, there may be different other libraries used, but the main
+In order to use any of these scripts, the user must download the spotipy library.
+Depending on which file is being run, there may be different other libraries used, but the main
 library is the spotipy library. Other used libraries consist of datetime, spotipy.oauth2, and os.
 
 --- CREDITS ---
 
-All files written by Shailesh Desai. The python spotipy library was used throughout all files.
+All files are written by Shailesh Desai. The python spotipy library was used throughout all files.
 The spotipy library tutorials were used to structure some small generic tasks in some files.
