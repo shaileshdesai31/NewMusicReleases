@@ -6,7 +6,7 @@
   
   - The primary file is the new-music-checker.py script. The script generates a file
     with all the new releases for the artists in the "artists.txt" files. The "artists.txt"
-    that is available is an example to show how file should be formatted. Any artists can be added.
+    that is available is an example to show how the file should be formatted. Any artists can be added.
     (See each file to understand how they specifically work.)
     
   - The fill_artists_file.py simply uses a playlist on spotify to add artists to the artists.txt file
